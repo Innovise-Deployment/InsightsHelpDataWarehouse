@@ -1,0 +1,69 @@
+===============
+Timegate Entity Relationship Model (ERM)
+===============
+
+Insights comes pre-loaded with the most commonly reported Data Sources from Timegate. These are documented within the Timegate Data Source section of this manual.
+
+A number of Entity Relationship Models are available below that will assist in the development of reports:
+
+Branch, Customer, Site Group and Site Card
+----------
+   .. figure:: /insights/images/insights-erm-BR-CU-SG-SC.jpg
+      :align: left
+
+      Branch, Customer, Site Group and Site Card
+
+
+Employee HR
+----------
+.. figure:: /insights/images/insights-erm-EE-HR.jpg
+   :align: left
+
+   Employee HR
+
+
+Employee Operations
+----------
+.. figure:: /insights/images/insights-erm-EE-OPS.jpg
+   :align: left
+
+   Employee Operations
+
+
+Employee Payroll
+----------
+.. figure:: /insights/images/insights-erm-EE-PAY.jpg
+   :align: left
+
+   Employee Payroll
+
+
+Scheduling
+----------
+.. figure:: /insights/images/insights-erm-SCHEDULING.jpg
+   :align: left
+
+   Scheduling
+
+
+Help Desk Tasks
+----------
+.. figure:: /insights/images/insights-erm-HELPDESK.jpg
+   :align: left
+
+   Help Desk Tasks
+
+
+Rate Generation
+----------
+.. figure:: /insights/images/insights-erm-RATEGEN.jpg
+   :align: left
+
+   Rate Generation
+
+
+.. toctree::
+   :maxdepth: 2
+
+
+   /insights/.data-dictionary

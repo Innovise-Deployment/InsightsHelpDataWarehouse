@@ -1,0 +1,13 @@
+==========================
+System Specification
+==========================
+
+Insights language features.
+
+.. toctree::
+   :maxdepth: 2
+
+   spec_insights_data_types
+   spec_insights_operators
+   spec_insights_functions
+   spec_insights_system_variables

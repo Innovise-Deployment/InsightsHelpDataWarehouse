@@ -1,0 +1,11 @@
+===============
+Insights Section Intro
+===============
+
+This is the information for the site
+
+.. toctree::
+   :maxdepth: 2
+
+   /insights/.timegate-erm
+   /insights/.timegate-data-source
