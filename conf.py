@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Insights Timegate Data Model'
-copyright = u'2018 | Innovise Software Limited | www.innovisesoftware.com | +44 (0) 370 626 0400'
+copyright = u'2019 | Innovise Software Limited | www.innovisesoftware.com | +44 (0) 370 626 0400'
 author = u'Innovise Software Limited'
 
 # The short X.Y version
