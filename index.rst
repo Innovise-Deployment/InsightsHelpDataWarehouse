@@ -16,6 +16,7 @@ This website is for use by Insights Report and Dashboard Designers and will cove
    :maxdepth: 1
    :caption: Contents:
 
+   copyright
    insights/.intro
    insights/.timegate-data-source
 
