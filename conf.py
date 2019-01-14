@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Insights Timegate Data Model'
+project = u'Insights Timegate Data Warehouse Guide'
 copyright = u'2019 | Innovise Software Limited | www.innovisesoftware.com | +44 (0) 370 626 0400'
 author = u'Innovise Software Limited'
 
@@ -174,7 +174,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'insights', u'Insights Timegate Data Model Documentation',
+    (master_doc, 'insights', u'Insights Timegate Data Warehouse Guide',
      [author], 1)
 ]
 
@@ -185,7 +185,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Insights', u'Insights Timegate Data Model Documentation',
+    (master_doc, 'Insights', u'Insights Timegate Data Warehouse Guide',
      author, 'Insights', 'One line description of project.',
      'Miscellaneous'),
 ]
