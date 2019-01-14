@@ -16,6 +16,7 @@ Branch, Customer, Site Group and Site Card
 
 Employee HR
 ----------
+
 .. figure:: /insights/images/insights-erm-EE-HR.jpg
    :align: left
 
