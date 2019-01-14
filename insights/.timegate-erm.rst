@@ -2,8 +2,6 @@
 Timegate Entity Relationship Model (ERM)
 ===============
 
-testing 1
-
 Insights comes pre-loaded with the most commonly reported Data Sources from Timegate. These are documented within the Timegate Data Source section of this manual.
 
 A number of Entity Relationship Models are available below that will assist in the development of reports:
