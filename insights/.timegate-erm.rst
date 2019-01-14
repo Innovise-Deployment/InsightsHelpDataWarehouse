@@ -2,6 +2,8 @@
 Timegate Entity Relationship Model (ERM)
 ===============
 
+testing 1
+
 Insights comes pre-loaded with the most commonly reported Data Sources from Timegate. These are documented within the Timegate Data Source section of this manual.
 
 A number of Entity Relationship Models are available below that will assist in the development of reports:
@@ -25,6 +27,7 @@ Employee HR
 
 Employee Operations
 ----------
+
 .. figure:: /insights/images/insights-erm-EE-OPS.jpg
    :align: left
 
@@ -33,6 +36,7 @@ Employee Operations
 
 Employee Payroll
 ----------
+
 .. figure:: /insights/images/insights-erm-EE-PAY.jpg
    :align: left
 
@@ -41,6 +45,7 @@ Employee Payroll
 
 Scheduling
 ----------
+
 .. figure:: /insights/images/insights-erm-SCHEDULING.jpg
    :align: left
 
@@ -49,6 +54,7 @@ Scheduling
 
 Help Desk Tasks
 ----------
+
 .. figure:: /insights/images/insights-erm-HELPDESK.jpg
    :align: left
 
@@ -57,6 +63,7 @@ Help Desk Tasks
 
 Rate Generation
 ----------
+
 .. figure:: /insights/images/insights-erm-RATEGEN.jpg
    :align: left
 
