@@ -2,10 +2,11 @@
 Timegate Data Source
 ===============
 
+Last Updated: 28th January 2019
+
 The following section will identify all of the available Timegate Data Sources and their associated relationships with other Data Sources within Insights.
 
 Each Data Source contains the following headings:
-
 
 AbsenceRules
 ----------
@@ -3338,8 +3339,8 @@ DutyPremiums
    *  - 2
       - 
       - DutyId
-      - 
-      - dwDuty / DutyId
+      - Inner Join
+      - Duty / DutyId
       - int
       - 10
       - YES
@@ -3347,8 +3348,8 @@ DutyPremiums
    *  - 3
       - 
       - PremiumId
-      - 
-      - dwPremiums / PremiumId
+      - Inner Join
+      - Premiums / PremiumId
       - int
       - 10
       - YES
@@ -4575,8 +4576,8 @@ EmployeesAbsenceDailyBalances
    *  - 2
       - 
       - EmployeeId
-      - 
-      - dwEmployees / EmployeeId
+      - Inner Join
+      - Employees / EmployeeId
       - int
       - 10
       - YES
@@ -4602,8 +4603,8 @@ EmployeesAbsenceDailyBalances
    *  - 5
       - 
       - EmployeeAbsenceId
-      - 
-      - dwEmployeesAbsence / EmployeeAbsenceId
+      - Inner Join
+      - EmployeesAbsence / EmployeeAbsenceId
       - int
       - 10
       - YES
@@ -4611,8 +4612,8 @@ EmployeesAbsenceDailyBalances
    *  - 6
       - 
       - AbsenceRuleId
-      - 
-      - dwAbsenceRules / AbsenceRuleId
+      - Inner Join
+      - AbsenceRules / AbsenceRuleId
       - int
       - 10
       - YES
@@ -4942,8 +4943,8 @@ EmployeesDiaryEventsPaidDays
    *  - 2
       - 
       - DiaryEventId
-      - 
-      - dwEmployeesDiaryEvents / DiaryEventId
+      - Inner Join
+      - EmployeesDiaryEvents / DiaryEventId
       - int
       - 10
       - YES
@@ -5005,8 +5006,8 @@ EmployeesDiaryEventsPaidDays
    *  - 9
       - 
       - AbsenceRuleId
-      - 
-      - dwAbsenceRules / AbsenceRuleId
+      - Inner Join
+      - AbsenceRules / AbsenceRuleId
       - int
       - 10
       - YES
@@ -5049,8 +5050,8 @@ EmployeeSitePayRates
    *  - 2
       - 
       - EmployeePayRateId
-      - 
-      - dwEmployeePayRates / EmployeePayRateId
+      - Inner Join
+      - EmployeePayRates / EmployeePayRateId
       - int
       - 10
       - YES
@@ -5058,8 +5059,8 @@ EmployeeSitePayRates
    *  - 3
       - 
       - SiteCardId
-      - 
-      - dwSiteCards / SiteCardId
+      - Left Outer
+      - SiteCards / SiteCardId
       - int
       - 10
       - YES
@@ -5067,8 +5068,8 @@ EmployeeSitePayRates
    *  - 4
       - 
       - PayLevelId
-      - 
-      - dwPayLevels / PayLevelId
+      - Left Outer
+      - PayLevels / PayLevelId
       - int
       - 10
       - YES
@@ -5120,8 +5121,8 @@ EmployeesNotes
    *  - 2
       - 
       - EmployeeId
-      - 
-      - dwEmployees / EmployeeId
+      - Left Outer
+      - Employees / EmployeeId
       - int
       - 10
       - NO
@@ -8417,8 +8418,8 @@ RateGenerationData
    *  - 39
       - 
       - DiaryEventPaidDaysId
-      - 
-      - dwEmployeesDiaryEventsPaidDays / DiaryEventPaidDaysId
+      - Left Outer
+      - EmployeesDiaryEventsPaidDays / DiaryEventPaidDaysId
       - int
       - 10
       - YES
@@ -8764,8 +8765,8 @@ SecurityItems
    *  - 4
       - 
       - ParentSecurityItemId
-      - 
-      - dwSecurityItems / SecurityItemId
+      - Left Outer
+      - SecurityItems / SecurityItemId
       - int
       - 10
       - YES
@@ -10116,8 +10117,8 @@ SiteCards
    *  - 98
       - 
       - BillingFrequencyId
-      - 
-      - dwBillingFrequency / BillingFrequencyId
+      - Left Outer
+      - BillingFrequency / BillingFrequencyId
       - int
       - 10
       - YES
