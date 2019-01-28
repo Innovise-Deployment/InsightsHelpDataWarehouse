@@ -3642,7 +3642,7 @@ Employees
    *  - 14
       - 
       - ProbationPeriodId
-      - Left Outelr
+      - Left Outer
       - dwProbationPeriods / ProbationPeriodId
       - int
       - 10
